@@ -91,7 +91,7 @@ class BinarySearchTree {
         }
 
         if(!node.right) {
-          node = node.right;
+          node = node.left;
           return node;
         }
 
