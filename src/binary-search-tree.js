@@ -134,17 +134,6 @@ class BinarySearchTree {
   }
 }
 
-const test = new BinarySearchTree()
-test.add(8);
-test.add(6);
-test.add(9);
-test.add(5);
-test.add(10);
-test.add(20);
-test.add(2);
-test.add(11);
-console.log(test)
-
 module.exports = {
   BinarySearchTree
 };
